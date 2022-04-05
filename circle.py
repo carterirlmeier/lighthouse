@@ -208,17 +208,17 @@ def run_shared_sequence(scf, params):
 
 # URIS of swarm
 uris = {
-    'radio://0/30/2M/E7E7E7E701',
-    'radio://0/30/2M/E7E7E7E702',
-    'radio://0/30/2M/E7E7E7E703',
+    'radio://0/20/2M/E7E7E7E7E7',
+    # 'radio://0/30/2M/E7E7E7E702',
+    # 'radio://0/30/2M/E7E7E7E703',
     # Add more URIs if you want more copters in the swarm
 }
 
 # Parameters of Swarm
 params = {
-    'radio://0/30/2M/E7E7E7E701': [{'d': 1}],
-    'radio://0/30/2M/E7E7E7E702': [{'d': 2}],
-    'radio://0/30/2M/E7E7E7E703': [{'d': 3}],
+    'radio://0/20/2M/E7E7E7E7E7': [{'d': 1}],
+    # 'radio://0/30/2M/E7E7E7E702': [{'d': 2}],
+    # 'radio://0/30/2M/E7E7E7E703': [{'d': 3}],
 }
 
 
